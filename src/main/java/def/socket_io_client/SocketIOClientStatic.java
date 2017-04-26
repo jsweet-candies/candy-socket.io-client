@@ -13,14 +13,14 @@ public abstract class SocketIOClientStatic extends def.js.Object {
 	 * @opts Any connect options that we want to pass along
 	 * @return A Socket object
 	 */
-    native public def.socket_io_client.socketioclient.Socket apply(String uri, def.socket_io_client.socketioclient.ConnectOpts opts);
+    native public def.socket_io_client.socketioclient.Socket $apply(String uri, def.socket_io_client.socketioclient.ConnectOpts opts);
     /**
 	 * Auto-connects to the window location and defalt namespace.
 	 * E.g. window.protocol + '//' + window.host + ':80/'
 	 * @opts Any connect options that we want to pass along
 	 * @return A Socket object
 	 */
-    native public def.socket_io_client.socketioclient.Socket apply(def.socket_io_client.socketioclient.ConnectOpts opts);
+    native public def.socket_io_client.socketioclient.Socket $apply(def.socket_io_client.socketioclient.ConnectOpts opts);
     /**
 	 * @see the default constructor (io(uri, opts))
 	 */
@@ -54,14 +54,14 @@ public abstract class SocketIOClientStatic extends def.js.Object {
 	 * @opts Any connect options that we want to pass along
 	 * @return A Socket object
 	 */
-    native public def.socket_io_client.socketioclient.Socket apply(String uri);
+    native public def.socket_io_client.socketioclient.Socket $apply(String uri);
     /**
 	 * Auto-connects to the window location and defalt namespace.
 	 * E.g. window.protocol + '//' + window.host + ':80/'
 	 * @opts Any connect options that we want to pass along
 	 * @return A Socket object
 	 */
-    native public def.socket_io_client.socketioclient.Socket apply();
+    native public def.socket_io_client.socketioclient.Socket $apply();
     /**
 	 * @see the default constructor (io(uri, opts))
 	 */

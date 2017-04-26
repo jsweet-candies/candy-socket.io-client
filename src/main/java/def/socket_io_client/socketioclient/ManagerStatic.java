@@ -10,12 +10,12 @@ public abstract class ManagerStatic extends def.js.Object {
 		 * @param opts Any connection options that we want to use (and pass to engine.io)
 		 * @return A Manager
 		 */
-    native public def.socket_io_client.socketioclient.Manager apply(String uri, def.socket_io_client.socketioclient.ConnectOpts opts);
+    native public def.socket_io_client.socketioclient.Manager $apply(String uri, def.socket_io_client.socketioclient.ConnectOpts opts);
     /**
 		 * Creates a new Manager with the default URI (window host)
 		 * @param opts Any connection options that we want to use (and pass to engine.io)
 		 */
-    native public def.socket_io_client.socketioclient.Manager apply(def.socket_io_client.socketioclient.ConnectOpts opts);
+    native public def.socket_io_client.socketioclient.Manager $apply(def.socket_io_client.socketioclient.ConnectOpts opts);
     /**
 		 * @see default constructor
 		 */
@@ -30,7 +30,7 @@ public abstract class ManagerStatic extends def.js.Object {
 		 * @param opts Any connection options that we want to use (and pass to engine.io)
 		 * @return A Manager
 		 */
-    native public def.socket_io_client.socketioclient.Manager apply(String uri);
+    native public def.socket_io_client.socketioclient.Manager $apply(String uri);
     /**
 		 * @see default constructor
 		 */
